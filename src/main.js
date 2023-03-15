@@ -1,3 +1,14 @@
+// loading part
+var preloader = document.getElementById('loading');
+
+function myFunction() {
+  preloader.style.display = 'none';
+}
+
+
+
+
+
 const notesContainer = document.getElementById("app");
 const addNoteButton = notesContainer.querySelector(".add-note");
 
